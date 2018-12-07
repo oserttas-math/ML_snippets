@@ -14,8 +14,6 @@ def crossval_optimize(clf, parameters, Xtrain, ytrain, n_folds=10):
 
     return model
 
-In [9]:
-
 # Takes a classifier, a grid of hyperparameters as a dictionary, a dataframe as input,
 # the target column, and the target value to be assigned the value 1:
 
